@@ -67,7 +67,8 @@ GEN-AI-Notes/
 - Request tracing
 - Performance monitoring basics
 - **Tech**: FastAPI, ElasticAPM
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-05-basic-apm-integration/`
 
 ---
 
@@ -379,9 +380,9 @@ MIT License - Feel free to use these POCs for learning and development.
 ## Progress Tracking
 
 **Total POCs**: 30
-**Completed**: 4
+**Completed**: 5
 **In Progress**: 0
-**Not Started**: 26
+**Not Started**: 25
 
 **Last Updated**: 2025-11-15
 
@@ -390,3 +391,4 @@ MIT License - Feel free to use these POCs for learning and development.
 2. ✅ POC 2: Simple LangChain Chatbot (`beginner/poc-02-simple-langchain-chatbot/`)
 3. ✅ POC 3: Document QA with FAISS (`beginner/poc-03-document-qa-faiss/`)
 4. ✅ POC 4: Pydantic AI Response Structuring (`beginner/poc-04-pydantic-ai-structuring/`)
+5. ✅ POC 5: Basic APM Integration (`beginner/poc-05-basic-apm-integration/`)
