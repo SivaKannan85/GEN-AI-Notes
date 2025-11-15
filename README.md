@@ -43,14 +43,16 @@ GEN-AI-Notes/
 - Prompt templates
 - Chat history management
 - **Tech**: FastAPI, LangChain, OpenAI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-02-simple-langchain-chatbot/`
 
 #### 3. Document QA with FAISS
 - Load documents and create embeddings
 - Basic similarity search
 - Simple question-answering endpoint
 - **Tech**: FastAPI, LangChain, FAISS, OpenAI
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-03-document-qa-faiss/`
 
 #### 4. Pydantic AI Response Structuring
 - Structured output extraction from LLM
@@ -376,11 +378,13 @@ MIT License - Feel free to use these POCs for learning and development.
 ## Progress Tracking
 
 **Total POCs**: 30
-**Completed**: 1
+**Completed**: 3
 **In Progress**: 0
-**Not Started**: 29
+**Not Started**: 27
 
-**Last Updated**: 2025-11-14
+**Last Updated**: 2025-11-15
 
 ### Completed POCs
 1. ✅ POC 1: Basic FastAPI + OpenAI Integration (`beginner/poc-01-basic-fastapi-openai/`)
+2. ✅ POC 2: Simple LangChain Chatbot (`beginner/poc-02-simple-langchain-chatbot/`)
+3. ✅ POC 3: Document QA with FAISS (`beginner/poc-03-document-qa-faiss/`)
