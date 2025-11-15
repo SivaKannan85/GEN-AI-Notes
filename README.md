@@ -35,28 +35,32 @@ GEN-AI-Notes/
 - Pydantic models for request/response validation
 - Basic error handling
 - **Tech**: FastAPI, OpenAI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-01-basic-fastapi-openai/`
 
 #### 2. Simple LangChain Chatbot
 - Basic conversation chain with memory
 - Prompt templates
 - Chat history management
 - **Tech**: FastAPI, LangChain, OpenAI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-02-simple-langchain-chatbot/`
 
 #### 3. Document QA with FAISS
 - Load documents and create embeddings
 - Basic similarity search
 - Simple question-answering endpoint
 - **Tech**: FastAPI, LangChain, FAISS, OpenAI
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-03-document-qa-faiss/`
 
 #### 4. Pydantic AI Response Structuring
 - Structured output extraction from LLM
 - Function calling with OpenAI
 - Data validation and parsing
 - **Tech**: FastAPI, OpenAI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `beginner/poc-04-pydantic-ai-structuring/`
 
 #### 5. Basic APM Integration
 - ElasticAPM setup with FastAPI
