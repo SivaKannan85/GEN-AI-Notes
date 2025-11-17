@@ -74,7 +74,7 @@ GEN-AI-Notes/
 - Document chunking strategies
 - Metadata filtering
 - **Tech**: LangChain, FAISS, OpenAI, FastAPI
-- **Status**: 🔄 In Progress
+- **Status**: ✅ Complete
 - **Location**: `intermediate/poc-06-rag-multiple-documents/`
 
 #### 7. Conversational RAG with Memory
@@ -82,7 +82,8 @@ GEN-AI-Notes/
 - Context-aware responses
 - Session management
 - **Tech**: LangChain, FAISS, OpenAI, FastAPI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Complete
+- **Location**: `intermediate/poc-07-conversational-rag-memory/`
 
 #### 8. LangChain Agents with Tools
 - Custom tool creation
@@ -376,8 +377,8 @@ MIT License - Feel free to use these POCs for learning and development.
 ## Progress Tracking
 
 **Total POCs**: 30
-**Completed**: 0
+**Completed**: 7
 **In Progress**: 0
-**Not Started**: 30
+**Not Started**: 23
 
-**Last Updated**: 2025-11-14
+**Last Updated**: 2025-11-17
