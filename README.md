@@ -90,7 +90,8 @@ GEN-AI-Notes/
 - ReAct agent implementation
 - Tool selection and execution
 - **Tech**: LangChain, OpenAI, FastAPI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Complete
+- **Location**: `intermediate/poc-08-langchain-agents-tools/`
 
 #### 9. Multi-Query RAG System
 - Query expansion and transformation
@@ -377,8 +378,8 @@ MIT License - Feel free to use these POCs for learning and development.
 ## Progress Tracking
 
 **Total POCs**: 30
-**Completed**: 7
+**Completed**: 8
 **In Progress**: 0
-**Not Started**: 23
+**Not Started**: 22
 
 **Last Updated**: 2025-11-17
