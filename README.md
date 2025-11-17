@@ -74,7 +74,8 @@ GEN-AI-Notes/
 - Document chunking strategies
 - Metadata filtering
 - **Tech**: LangChain, FAISS, OpenAI, FastAPI
-- **Status**: ⬜ Not Started
+- **Status**: 🔄 In Progress
+- **Location**: `intermediate/poc-06-rag-multiple-documents/`
 
 #### 7. Conversational RAG with Memory
 - Chat history + RAG retrieval
