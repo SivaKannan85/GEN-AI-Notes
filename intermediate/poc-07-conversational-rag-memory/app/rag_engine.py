@@ -58,7 +58,7 @@ class ConversationalRAGEngine:
             scored.append((len(q_terms.intersection(terms)), doc))
 
         scored.sort(key=lambda item: item[0], reverse=True)
-        return [doc for score, doc in scored[:top_k] if score > 0] or [self._documents[0]]
+        return [doc for score, doc in scored[:top_k] if score > 0]
 
 
 _engine: ConversationalRAGEngine | None = None
