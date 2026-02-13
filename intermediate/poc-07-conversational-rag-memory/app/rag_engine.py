@@ -35,10 +35,8 @@ class ConversationalRAGEngine:
             last = history[-1]
             prior_summary = f" Previous turn was about: {last['question']}"
 
-        answer = (
-            f"Based on indexed knowledge:{prior_summary} "
-            f"{context[0] if context else 'No direct match found.'}"
-        )
+        selected_context = context[0] if context else "No direct match found."
+        answer = f"Based on indexed knowledge:{prior_summary} {selected_context}"
 
         history.append({"question": question, "answer": answer})
 
