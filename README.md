@@ -79,7 +79,8 @@ GEN-AI-Notes/
 - Document chunking strategies
 - Metadata filtering
 - **Tech**: LangChain, FAISS, OpenAI, FastAPI
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `intermediate/poc-06-rag-multi-document-types/`
 
 #### 7. Conversational RAG with Memory
 - Chat history + RAG retrieval
@@ -380,9 +381,9 @@ MIT License - Feel free to use these POCs for learning and development.
 ## Progress Tracking
 
 **Total POCs**: 30
-**Completed**: 5
+**Completed**: 6
 **In Progress**: 0
-**Not Started**: 25
+**Not Started**: 24
 
 **Last Updated**: 2025-11-15
 
@@ -392,3 +393,4 @@ MIT License - Feel free to use these POCs for learning and development.
 3. ✅ POC 3: Document QA with FAISS (`beginner/poc-03-document-qa-faiss/`)
 4. ✅ POC 4: Pydantic AI Response Structuring (`beginner/poc-04-pydantic-ai-structuring/`)
 5. ✅ POC 5: Basic APM Integration (`beginner/poc-05-basic-apm-integration/`)
+6. ✅ POC 6: RAG System with Multiple Document Types (`intermediate/poc-06-rag-multi-document-types/`)
