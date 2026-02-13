@@ -87,7 +87,8 @@ GEN-AI-Notes/
 - Context-aware responses
 - Session management
 - **Tech**: LangChain, FAISS, OpenAI, FastAPI, Pydantic
-- **Status**: ⬜ Not Started
+- **Status**: ✅ Completed
+- **Location**: `intermediate/poc-07-conversational-rag-memory/`
 
 #### 8. LangChain Agents with Tools
 - Custom tool creation
