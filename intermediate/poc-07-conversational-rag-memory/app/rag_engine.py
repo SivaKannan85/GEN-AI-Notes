@@ -51,6 +51,9 @@ class ConversationalRAGEngine:
         }
 
     def _retrieve(self, question: str, top_k: int) -> list[str]:
+        if top_k <= 0:
+            return []
+
         q_terms = set(question.lower().split())
         scored: list[tuple[int, str]] = []
         for doc in self._documents:
@@ -58,7 +61,8 @@ class ConversationalRAGEngine:
             scored.append((len(q_terms.intersection(terms)), doc))
 
         scored.sort(key=lambda item: item[0], reverse=True)
-        return [doc for score, doc in scored[:top_k] if score > 0]
+        matching_docs = [doc for score, doc in scored if score > 0]
+        return matching_docs[:top_k]
 
 
 _engine: ConversationalRAGEngine | None = None
