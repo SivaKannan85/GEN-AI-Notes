@@ -47,3 +47,20 @@ def test_ask_requires_documents() -> None:
         json={"session_id": "s1", "question": "hello", "top_k": 1},
     )
     assert response.status_code == 400
+
+
+def test_ask_returns_no_match_when_context_is_empty() -> None:
+    ingest_response = client.post(
+        "/documents/ingest",
+        json={"documents": ["FastAPI framework", "Vector database search"]},
+    )
+    assert ingest_response.status_code == 201
+
+    response = client.post(
+        "/chat/ask",
+        json={"session_id": "s1", "question": "quantum mechanics", "top_k": 1},
+    )
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["context_used"] == []
+    assert "No direct match found." in payload["answer"]
