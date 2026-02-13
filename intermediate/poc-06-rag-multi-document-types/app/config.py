@@ -1,7 +1,7 @@
 """Configuration management for POC 6 multi-document-type RAG."""
 from functools import lru_cache
 
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
@@ -34,9 +34,7 @@ class Settings(BaseSettings):
     max_upload_size_bytes: int = 15_000_000
     log_level: str = "INFO"
 
-    class Config:
-        env_file = ".env"
-        case_sensitive = False
+    model_config = SettingsConfigDict(env_file=".env", case_sensitive=False)
 
 
 @lru_cache()
